@@ -9,3 +9,4 @@ print("segundo reglon")
 print(type("hola")) # la funcion type me dice que tip de datos esta en los parentecis
 print(type(4))
 print(type(5.5))
+print("pruebagitignore")
