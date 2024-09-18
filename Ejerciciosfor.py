@@ -52,7 +52,7 @@ def reloj():
             break
         
 #reloj()
-
+3
 def interes_anual():
     cantidadDinero = int(input("cantidad de dinero al año: "))
     impuesto = float(input("cantidad de impuesto: "))
@@ -63,4 +63,14 @@ def interes_anual():
         cantidadDinero = cantidadDinero + interes
         print("Dinero al final del año: ", cantidadDinero)
         time.sleep(1)
-interes_anual()
+#interes_anual()
+
+import time
+
+def numero_triangulo():
+    numero = int(input("Ingrese un número: "))
+    for i in range(1, numero + 1):
+        print(" " * (numero - i) + "*" * (2 * i - 1))
+        time.sleep(0.5)
+
+numero_triangulo()
